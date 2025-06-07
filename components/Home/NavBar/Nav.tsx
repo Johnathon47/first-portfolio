@@ -33,7 +33,7 @@ export default function Nav({ openNav }: Props) {
 
     return (
         <div className={`fixed ${navBg ? "bg-[#01194A]":"fixed"
-        } h-[12vh] z-[10] w-full transition-all duration-200`}>
+        } h-[12vh] z-[10] w-full transition-all duration-200 border-b-white`}>
             <div className="flex items-center h-full justify-between w-[95%] sm:w-[90%] xl:w-[80%] mx-auto">
                 {/* LOGO */}
                 <p className="bg-black text-white">TOTOZAFY Johnathon</p>
