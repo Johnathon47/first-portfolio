@@ -1,6 +1,9 @@
+"use client"
+
 import { BaseInfo } from "@/Data/data";
 import Image from "next/image";
 import { FaDownload } from "react-icons/fa";
+import { TypeAnimation } from "react-type-animation";
 
 export default function Hero() {
     return (
@@ -10,9 +13,14 @@ export default function Hero() {
                     {/* Text Content */}
                     <div>
                         {/* Sub Heading */}
-                        <h1 className="text-2xl md:text-3xl lg:text-4xl mb-5 text-[#a3e635] font-mono">
-                            I am {BaseInfo.fullName} 👾
-                        </h1>
+                        <TypeAnimation
+                        className="text-2xl md:text-3xl lg:text-4xl mb-5 text-[#a3e635] font-mono"
+                        sequence={[
+                            `I am ${BaseInfo.fullName}`,
+                            500
+                        ]}
+                        repeat={Infinity}
+                        />
                         {/* Title*/}
                         <h1 className="text-bg text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-mono md:leading-[3rem]
                         lg:leading-[3.5rem] xl:leading-[4rem] text-white"> 
