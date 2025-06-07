@@ -16,7 +16,7 @@ export default function Hero() {
                         <TypeAnimation
                         className="text-2xl md:text-3xl lg:text-4xl mb-5 text-[#a3e635] font-mono"
                         sequence={[
-                            `I am ${BaseInfo.fullName}`,
+                            `I am ${BaseInfo.fullName}👾`,
                             500
                         ]}
                         repeat={Infinity}
