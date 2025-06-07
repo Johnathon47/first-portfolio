@@ -1,7 +1,6 @@
 "use client";
 
 import { navLinks } from "@/constant/constant";
-import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { HiBars3BottomRight } from "react-icons/hi2";
@@ -37,12 +36,7 @@ export default function Nav({ openNav }: Props) {
         } h-[12vh] z-[10] w-full transition-all duration-200`}>
             <div className="flex items-center h-full justify-between w-[95%] sm:w-[90%] xl:w-[80%] mx-auto">
                 {/* LOGO */}
-                <Image 
-                src="/image/logo_hei.png" 
-                alt="LOGO HEI MY UNIVERSITY" 
-                width={100} height={100} 
-                className="ml-0 sm:ml-0 "
-                />
+                <p className="bg-black">TOTOZAFY Johnathon</p>
                 {/* Nav links */}
                 <div className="flex items-center space-x-10">
                     <div className="hidden lg:flex items-center space-x-8">
