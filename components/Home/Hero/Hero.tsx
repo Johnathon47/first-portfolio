@@ -31,10 +31,13 @@ export default function Hero() {
                             {BaseInfo.description} 
                         </p>
                         {/* Button */}
+                        <a href="https://docs.google.com/document/d/1B9PU0hbTKsZIkjRdfoOoU358c5JFoeIxOG1HDNQWOBw/export?format=pdf">
                         <button className="mt-7 bg-[#E2A01A] text-white font-bold px-6 py-2 rounded-lg shadow-lg shadow-[#E2A01A]/50 hover:shadow-xl hover:scale-105 transition-all duration-300">
                             <span>Download CV</span>
                             <FaDownload/>
                         </button>
+                        </a>
+                        
                     </div>
                     {/* Image content */}
                     <div className="mx-auto hidden lg:block rounded-[2rem] border-[4px] border-[#E2A01A] bg-[#111] p-2 shadow-[6px_6px_0_#E2A01A] overflow-x-hidden">
