@@ -28,19 +28,19 @@ export const skillsData = [
         id:1,
         title:"HTML",
         image: "/image/html.svg",
-        percent: "40%",
+        percent: "10%",
     },
     {
         id:2,
         title:"CSS",
         image: "/image/css.svg",
-        percent: "40%",
+        percent: "10%",
     },
     {
         id:3,
         title:"JAVASCRIPT",
         image: "/image/js.svg",
-        percent: "50%",
+        percent: "15%",
     },
     {
         id:4,
@@ -58,13 +58,19 @@ export const skillsData = [
         id:6,
         title:"JAVA",
         image: "/image/java.svg",
-        percent: "50%",
+        percent: "10%",
     },
     {
         id:7,
         title:"NEXTJS",
         image: "/image/nextjs.svg",
-        percent: "20%",
+        percent: "5%",
+    },
+    {
+        id:8,
+        title:"VIM",
+        image: "/image/Vimlogo.svg.png",
+        percent: "15%",
     },
 ];
 
